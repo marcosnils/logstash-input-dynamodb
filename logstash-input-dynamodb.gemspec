@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "activesupport-json_encoder"
   # Jar dependencies
   s.requirements << "jar 'org.apache.httpcomponents:httpclient', '4.5.2'"
-  s.requirements << "jar 'com.amazonaws:amazon-kinesis-client', '1.6.1'"
+  s.requirements << "jar 'com.amazonaws:amazon-kinesis-client', '1.6.5'"
   s.requirements << "jar 'log4j:log4j', '1.2.17'"
   s.requirements << "jar 'com.amazonaws:aws-java-sdk-dynamodb', '1.10.60'"
   s.requirements << "jar 'com.amazonaws:aws-java-sdk-core', '1.10.60'"
